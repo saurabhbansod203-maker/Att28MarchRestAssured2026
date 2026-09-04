@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-01T21:14:24 IST" name="Default suite" finished-at="2026-09-01T21:14:30 IST" duration-ms="5505">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.spotify.runner.PlaylistRunner@6356695f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-09-01T21:14:24 IST" name="Default test" finished-at="2026-09-01T21:14:30 IST" duration-ms="5505">
+      <class name="com.spotify.runner.PlaylistRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.spotify.runner.PlaylistRunner@6356695f]" started-at="2026-09-01T21:14:24 IST" name="setUpClass" finished-at="2026-09-01T21:14:24 IST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60c4cf2b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.spotify.runner.PlaylistRunner@6356695f]" started-at="2026-09-01T21:14:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-01T21:14:25 IST" duration-ms="1280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully creating a new Playlists"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Spotify Playlist Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.spotify.runner.PlaylistRunner@6356695f]" started-at="2026-09-01T21:14:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-01T21:14:26 IST" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully fetching a created Playlist"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Spotify Playlist Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.spotify.runner.PlaylistRunner@6356695f]" started-at="2026-09-01T21:14:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-01T21:14:26 IST" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully adding item to playlist"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Spotify Playlist Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.spotify.runner.PlaylistRunner@6356695f]" started-at="2026-09-01T21:14:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-01T21:14:29 IST" duration-ms="3222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Succesfully adding cover image to playlist"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Spotify Playlist Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.spotify.runner.PlaylistRunner@6356695f]" started-at="2026-09-01T21:14:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-01T21:14:30 IST" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[": Succesfully removing item from playlist"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Spotify Playlist Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.spotify.runner.PlaylistRunner@6356695f]" started-at="2026-09-01T21:14:30 IST" name="tearDownClass" finished-at="2026-09-01T21:14:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.spotify.runner.PlaylistRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

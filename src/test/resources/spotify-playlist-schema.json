@@ -1,0 +1,147 @@
+{
+  "type": "object",
+  "properties": {
+    "collaborative": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "string"
+    },
+    "external_urls": {
+      "type": "object",
+      "properties": {
+        "spotify": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "spotify"
+      ]
+    },
+    "followers": {
+      "type": "object",
+      "properties": {
+        "href": {},
+        "total": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "href",
+        "total"
+      ]
+    },
+    "href": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "images": {
+      "type": ["array", "null"],
+      "items": {}
+    },
+    "primary_color": {},
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "uri": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "object",
+      "properties": {
+        "href": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "uri": {
+          "type": "string"
+        },
+        "display_name": {},
+        "external_urls": {
+          "type": "object",
+          "properties": {
+            "spotify": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "spotify"
+          ]
+        }
+      },
+      "required": [
+        "href",
+        "id",
+        "type",
+        "uri",
+        "display_name",
+        "external_urls"
+      ]
+    },
+    "public": {
+      "type": "boolean"
+    },
+    "snapshot_id": {
+      "type": "string"
+    },
+    "items": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number"
+        },
+        "next": {},
+        "offset": {
+          "type": "number"
+        },
+        "previous": {},
+        "href": {
+          "type": "string"
+        },
+        "total": {
+          "type": "number"
+        },
+        "items": {
+          "type":["array", "null"],
+          "items": {}
+        }
+      },
+      "required": [
+        "limit",
+        "next",
+        "offset",
+        "previous",
+        "href",
+        "total",
+        "items"
+      ]
+    }
+  },
+  "required": [
+    "collaborative",
+    "description",
+    "external_urls",
+    "followers",
+    "href",
+    "id",
+    "images",
+    "primary_color",
+    "name",
+    "type",
+    "uri",
+    "owner",
+    "public",
+    "snapshot_id",
+    "items"
+  ]
+}
